@@ -1,0 +1,229 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"title": "Please specify if you are...",
+			"model": "specification",
+			"answers": [
+				{
+					"id": "A",
+					"answer": "The individual diagnosed with dementia"
+				},
+				{
+					"id": "B",
+					"answer": "The family member, friend or carer of an individual with dementia"
+				},
+				{
+					"id": "C",
+					"answer": "Other"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Have you been diagnosed?",
+			"model": "diagnose",
+			"answers": [
+				{
+					"id": "A",
+					"answer": "Yes"
+				},
+				{
+					"id": "B",
+					"answer": "No"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Have you told the DVLA and your insurer about your diagnosis?",
+			"model": "told",
+			"answers": [
+				{
+					"id": "A",
+					"answer": "Yes, have told both"
+				},
+				{
+					"id": "B",
+					"answer": "Yes, have told the DVLA but not my insurer"
+				},
+				{
+					"id": "C",
+					"answer": "Yes, have told my insurer but not the DVLA"
+				},
+				{
+					"id": "D",
+					"answer": "No, have told neither"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "What was the DVLA decision/outcome?",
+			"model": "decision",
+			"answers": [
+				{
+					"id": "A",
+					"answer": "Continue driving"
+				},
+				{
+					"id": "B",
+					"answer": "Take a driving assessment"
+				},
+				{
+					"id": "C",
+					"answer": "Give up driving"
+				},
+				{
+					"id": "D",
+					"answer": "Still awaiting a decision"
+				}
+			]
+		}
+	],
+	"rules": {
+		"AAAA": [
+			9, 7, 8, 4
+		],
+		"AAAB": [
+			6, 9, 10, 4
+		],
+		"AAAC": [
+			10, 11, 12, 17
+		],
+		"AAAD": [
+			5, 4, 7
+		],
+		"AABA": [
+			3, 9, 7, 8, 4
+		],
+		"AABB": [
+			3, 6, 9, 10, 4
+		],
+		"AABC": [
+			3, 10, 11, 12, 17
+		],
+		"AABD": [
+			3, 5, 4
+		],
+		"AAC": [
+			1, 2, 3, 5, 4
+		],
+		"AAD": [
+			1, 2, 3, 5, 4
+		],
+		"AB": [
+			1, 2, 3, 5, 4
+		],
+		"B": [
+			13, 14, 15, 16
+		],
+		"C": [
+			1, 3, 5, 7, 4
+		]
+	},
+	"results": [
+		{
+			"id": 1,
+			"title": "TELL THE DVLA",
+			"overview": "<p>In the UK, the law on driving and dementia is very clear: if you are a license holder, you must contact and inform the DVLA promptly once you have been diagnosed with dementia. You could be fined up to \u00A31000 if you don\u2019t tell the DVLA and could be prosecuted if you have an accident.<\/p>",
+			"full": "<p>In the UK, the law on driving and dementia is very clear. A licence holder must contact the relevant licensing agency about a condition that might affect their ability to drive, dementia included. In Scotland, the agency you must inform is the Driver and Vehicle Licensing Agency (DVLA). You could be fined up to \u00A31000 if you don\u2019t tell the DVLA and could also be prosecuted if you have an accident.<\/p>\r\n<p>To inform the DVLA, complete the appropriate form and send to:<br \/>Drivers Medical Group, DVLA, Swansea, SA99 1DF<\/p>"
+		},
+		{
+			"id": 2,
+			"title": "DVLA FORMS",
+			"overview": "<p>The majority of people will use a <a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/709734\/cg1-medical-\r\nquestionnaire.pdf\" target=\"_blank\">CG1<\/a> form to inform the DVLA. However, those with lewy body dementia will use a <a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/709730\/b1-medical-questionnaire.pdf\" target=\"_blank\">B1<\/a> form. Both forms ask for personal information and GP\/specialist details. It will also ask you to sign a declaration giving the DVLA authority to access your medical details.<\/p>",
+			"full": "<p>The majority of people diagnosed with dementia will use a <a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/709734\/cg1-medical-\r\nquestionnaire.pdf\" target=\"_blank\">CG1<\/a> form to inform the DVLA. However, individuals diagnosed with Lewy body dementia will use a <a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/709730\/b1-medical-questionnaire.pdf\" target=\"_blank\">B1<\/a> form. The forms will ask for your personal information and GP and\/or specialist details. It is helpful to have these details to hand before you begin. If you need accessible format forms, these are available by request.<\/p>\r\n<p>Please be aware that the form includes a declaration which, when complete, will give the DVLA authority to contact your GP and\/or specialist. It allows them to release any information deemed necessary.<\/p>\r\n<p>Once they have received your form, the DVLA will review your case and decide if you can continue to drive. According to the Alzheimer Society, 1 in 3 people with dementia are still driving. Whilst you await a decision, you should follow your doctors guidance on whether to drive or not.<\/p>"
+		},
+		{
+			"id": 3,
+			"title": "TELLING INSURER",
+			"overview": "<p>If you have been diagnosed with dementia, it is important to tell your car insurance provider about your diagnosis immediately. This it to ensure your insurance continues to be valid as it is a criminal offence to drive without at least third-party cover.<\/p>",
+			"full": "<p>If you have been diagnosed with dementia, it is important to tell your car insurance provider about your diagnosis immediately. This is to ensure you remain covered and that your insurance continues to be valid. If you do not tell your provider, there is a chance that your insurance could become invalid and any claim would be rejected. Please note that it is a criminal offence to drive without at least third-party cover.<\/p>\r\n<p>Whilst different insurance providers have different policies, the majority will continue to cover you if the DVLA have said you are safe to drive. Some providers ask you to sign a confirmation that you have informed the DVLA.<\/p>"
+		},
+		{
+			"id": 4,
+			"title": "VOLUNTARILY LICENCE SURRENDER",
+			"overview": "<p>Being diagnosed with dementia doesn\u2019t necessarily mean you will be told to stop driving. However, any people choose to give up voluntarily because they find it stressful or lose confidence in their driving abilities. If you choose to do stop driving, you can surrender your licence by completing the DVLA form and returning your licence.<\/p>\r\n<p><a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/275454\/ODL.pdf\" target=\"_blank\">Declaration of Surrender for Medical Reasons<\/a><\/p>",
+			"full": "<p>Being diagnosed with dementia doesn\u2019t necessarily mean you have to give up driving. However, many people with dementia choose to drive up driving voluntarily. This is because they find it too stressful or if they lose confidence in their driving abilities.<\/p>\r\n<p>Sometimes it becomes clear that you should no longer be driving. This may be because you:<\/p>\r\n<ul>\r\n<li>Feel less confident or more irritable on the road<\/li>\r\n<li>Get regularly lost or confused on familiar routes<\/li>\r\n<li>Begin to misjudge speed or distance<\/li>\r\n<li>Find yourself straying across lanes or hitting kerbs<\/li>\r\n<li>Have minor scrapes, accidents or near-misses<\/li>\r\n<li>Find that passengers express concern about your driving<\/li>\r\n<\/ul>\r\n<p>To voluntarily surrender your licence, you need to tell the DVLA via form and send them your licence. Complete the <a href=\"https:\/\/assets.publishing.service.gov.uk\/government\/uploads\/system\/uploads\/attachment_data\/file\/275454\/ODL.pdf\" target=\"_blank\">\u2018Declaration of Voluntary Surrender\u2019<\/a> form. The form will ask for your personal details, medical diagnosis and includes a declaration for you to sign. It's helpful for you to have this information before you begin filling in the form.<\/p>\r\n<p>Once completed, send the form and your licence to:<br \/> <strong>Drivers Medical Group, DVLA, Swansea, SA99 1TU<\/strong><\/p>"
+		},
+		{
+			"id": 5,
+			"title": "DVLA OPTIONS",
+			"overview": "<p>Once you have informed the DVLA, you should hear back within 6 weeks. If its going to take longer, you will receive a letter advising you of this. There are three possibilities at this stage. Whilst you await a decision, you should follow your doctors guidance on whether to drive or not.<\/p>",
+			"full": "<p>Once you have informed the DVLA of your dementia diagnosis, you should hear back within 6 weeks. It its going to take longer, you will receive a letter advising you of this. Whilst awaiting a decision, you should follow your doctors guidance on whether to drive or not.<\/p>\r\n<p>Having received note of your diagnosis, medical advisors at the DVLA will make a decision as to whether you can continue to drive. There are three possibilities at this stage:<\/p>\r\n<ol type=\"1\">\r\n<li>The DVLA may decide to renew your licence, usually on a short term basis. For individuals with dementia, licences are most often valid for one year. For those with an early diagnosis, the licence can be valid for a maximum of three years.<\/li>\r\n<li>Alternatively, the DVLA may choose to cancel or revoke your licence with immediate affect<\/li>\r\n<li>In a minority of cases, the DVLA may decide that they require more information before making a decision. This can include further medical details, asking you to take an eyesight test or requiring you to take a driving assessment.<\/li>\r\n<\/ol>\r\n<p>In all cases, the DVLA will write to you to inform you of their decision. According to the Alzheimer Society, 1 in 3 people with dementia still drives.<\/p>"
+		},
+		{
+			"id": 6,
+			"title": "DRIVING ASSESSMENT",
+			"overview": "<p>The DVLA may ask you to take a driving assessment if they are unsure if you are safe to drive. Alternatively, you can ask your GP to refer you if you have concerns about your driving abilities. The assessment takes place in Edinburgh and usually lasts about two hours.<\/p>",
+			"full": "<p>If the DVLA are unsure whether you are safe to drive, they may ask you to take a driving assessment. If the DVLA ask you to sit an assessment, they will pay for it. Alternatively, you can ask your GP to refer you if you have concerns about your driving abilities. If you are referred by an NHS GP or consultant, the cost is covered by the NHS.<\/p>\r\n<p>The assessment takes place at the Scottish Driving Assessment Service (SDAS) in Edinburgh. You might have to make your own arrangements to & from the centre. You should also take someone with you in case you need to be driven home. If you have been referred by an NHS doctor outside the Lothian area, you can seek reimbursement of travel expenses via your Health Board. Each individual Health Board can decide how they want to deal with this.<p>\r\n<p>The assessment usually takes about two hours. Unlike a driving test, it is an overall assessment of the impact dementia is having on your driving. It assesses whether you are able to safely and comfortably drive. It is carried out by a specialist occupational therapist and an advanced driving instructor. About 70% of all the people SDAS assess can go on driving. Talk to us via webchat or call our free helpline if you would like support in being told to stop driving.<\/p>\r\n<p>You can expect the assessment to include:<\/p>\r\n<ol type=\"1\">\r\n<li>An interview which covers the licence holder\u2019s medical and driving history, and goes through any current driving problems. There is then a short pen and paper mental ability test.<\/li>\r\n<li>Reaction time and limb strength (steering, braking) will be tested on a static \u2018rig\u2019. The rig is the set-up of a car with a steering wheel and foot pedals linked to a computer. Eyesight is also checked and by this stage, a few people will be found not safe to drive.<\/li>\r\n<li>The main part of the assessment is an on-road session in a dual-control car. The car will have brakes on both the passenger and driver sides. The assessment is a drive on local roads following a pre-set route. The advanced driving instructor acts as passenger and the occupational therapist acts as in in-car observer.<\/li>\r\n<li>At the centre at the end of the assessment, staff will tell you what they have found. The Scottish Driving Assessment Service will report back to the DVLA or the doctor who referred you and will put any recommendations in writing to you.<\/li>\r\n<\/ol>\r\n<p>If you are found safe to drive, they will suggest strategies and adaptations to minimise risk and allow you to drive with greater safety and confidence. If the DVLA decide you are safe to drive, they may renew your licence on a short term basis, most often valid for one year.<\/p>\r\n<p>If you are found not safe to drive, staff will explain why and give advice about alternatives. If this is the case, it is with immediate affect and you will be unable to drive yourself home.<\/p>"
+		},
+		{
+			"id": 7,
+			"title": "REDUCING RISKS",
+			"overview": "<p>All drivers can take steps to make their driving safer. For someone with dementia, there are a number of ways to make driving easier and safer to help minimise their risk of having an accident whilst driving.<\/p>",
+			"full": "<p>All drivers can take steps to make their driving safer. For someone with dementia, there are a number of ways to make driving easier and safer to help minimise their risk of having an accident whilst driving. The following steps could help:<\/p>\r\n<ul>\r\n<li>Get a passenger to navigate or help along the journey<\/li>\r\n<li>Drive regularly to help maintain skills and confidence.<\/li>\r\n<li>Drive in daylight in good road and weather conditions.<\/li>\r\n<li>Drive without distractions, like the radio, for better concentration.<\/li>\r\n<li>Drive short distances on familiar routes at quiet times of the day<\/li>\r\n<li>Leave plenty of time for your journey to avoid stress and panic<\/li>\r\n<\/ul>\r\n<p>If you are worried about driving, it can be helpful to talk to your GP. Sometimes it can become clear that you should no longer by driving. This may because you:<\/p>\r\n<ul>\r\n<li>Feel less confident or more irritable on the road<\/li>\r\n<li>Get regularly lost or confused on familiar routes<\/li>\r\n<li>Begin to misjudge speed or distance<\/li>\r\n<li>Find yourself straying across lanes or hitting kerbs<\/li>\r\n<li>Have minor scrapes, accidents or near-misses<\/li>\r\n<li>Find that passengers express concern about your driving<\/li>\r\n<\/ul>"
+		},
+		{
+			"id": 8,
+			"title": "RENEWAL",
+			"overview": "<p>The DVLA will send you a renewal reminder automatically 90 days before your licence is due to expire. You won\u2019t have to pay a fee when you renew your licence and must return your old photo-card licence when your receive your new licence.<\/p>",
+			"full": "<p>The DVLA will send you a renewal reminder automatically 90 days before your 1, 2 or 3 year licence is due to expire. If you don\u2019t receive a reminder, you should order form D1 as well as downloading and filling in the medical forms for your condition. Send them all to the DVLA, following the address on the forms. If you\u2019re over 70, you won\u2019t have to pay a fee each time you won\u2019t have to pay a fee each time you renew your licence. You can also renew your short-term medical driving licence by post. Once you receive your new licence, you must send your old photo-card licence to the DVLA when you receive your new licence.<\/p>"
+		},
+		{
+			"id": 9,
+			"title": "DVLA SAYS CONTINUE",
+			"overview": "<p>If the DVLA decide you can continue to drive, they will issue a new driving licence which will be valid for limited time period, usually between 1 - 3 years. Even if you are issued with a licence, it is helpful to start thinking about the future, planning for the time when you will need to stop.<\/p>",
+			"full": "<p>If the DVLA decided you can continue to drive, they will issue a new driving licence which will be valid for a limited time period. For a person with dementia, the licence is almost always one year. However, for someone with a very early dementia diagnosis, it could be up to a maximum of three years. According to the Alzheimer Society, the majority of people with dementia continue driving for three years after being diagnosed.<\/p>\r\n<p>Prior to the end of your licence period, the DVLA will contact you to renew your licence. Even if you are issued with a licence, it is helpful to begin thinking ahead to the time when you will need to stop. Beginning to introduce practical measures that allows the adjustment to stopping driving be more straightforward when the time comes.<\/p>"
+		},
+		{
+			"id": 10,
+			"title": "TOLD TO STOP",
+			"overview": "<p>If the DVLA or your GP tells you to stop driving, you must follow their decision. You must return your licence and stop driving. If you are told to stop, it can be helpful to consider the benefits, in particular the financial savings and to take control of your transportation needs.<\/p>",
+			"full": "<p>If the DVLA decides you cannot continue driving, you must return your driving licence to the DVLA and stop driving. Being unable to drive can be difficult, especially when the decision is made for you. It is important to consider the benefits of not driving, in particular the financial savings and to take control of your transportation needs using alternatives to driving so that you are still able to do the activities you enjoy. You could also consider the benefits of not driving, for example no longer spending time finding parking spaces or having to drive in bad weather conditions.<\/p>"
+		},
+		{
+			"id": 11,
+			"title": "DISAGREEING WITH DECISION",
+			"overview": "<p>If you disagree with the DVLA decision, you can write to them but you must provide proof that you meet the required standards for driving. If you wish to appeal, a formal petition must be lodged with the local sheriffs court within 21 days. During the appeal, you are not allowed to drive.<\/p>",
+			"full": "<p>If you disagree with the DVLA decision, you can write to them but must provide relevant information that wasn\u2019t included in the original assessment. You must also include proof that you meet the required standards for driving (these are explained in the decision letter DVLA sent you) & the reference number from your decision letter. Send to:<br \/><strong>DM Business Support, D7, DVLA, SA99 1ZZ<\/strong><\/p>\r\n<p>If you wish to appeal, a formal petition must be lodged with the local sheriffs court within 21 days. During the appeal, you are not allowed to drive even if you feel you are able. You may want to get legal advice before you appeal - you might be able to get legal aid to pay for it. You must tell DVLA in writing if you choose to appeal, send to:<br \/><strong>Driver and Vehicle Licensing Agency, Drivers Medical Group, Swansea, SA99 1DF<\/strong><\/p>"
+		},
+		{
+			"id": 12,
+			"title": "MAKE A COMPLAINT",
+			"overview": "<p>If you are unhappy with the service you have received from the DVLA, you can make a complaint. The quickest way to resolve the issue is to contact the department you originally dealt with and are unhappy with.<\/p>",
+			"full": "<p>If you are unhappy with the service you have received from the DVLA, you can make a complaint. The quickest way to resolve the issue is to contact the department you originally dealt with and are unhappy with. If you are then unhappy with the response from the relevant department, make a formal complaint.<\/p>"
+		},
+		{
+			"id": 13,
+			"title": "IF THE PERSON REFUSES TO TELL THE DVLA",
+			"overview": "<p>By not telling the DVLA about a dementia diagnosis, the person risks both a fine and\/or prosecution, as well as potentially driving without valid insurance and having an accident. In these circumstances, you or the persons doctor should try to persuade them to inform the DVLA or contact the DVLA yourself.<\/p>",
+			"full": "<p>By not informing the DVLA, the person is at risk of a fine and\/or prosecution, as well as the danger of driving without insurance and possibly having an accident. In these circumstances, those close to the individual or their doctor should try to persuade the person to notify the DVLA, or do so themselves. This can often be a very difficult issue for all of those involved.<\/p>\r\n<p>If the person still doesn\u2019t inform the DVLA, you can contact them directly. The DVLA are happy to discuss the situation with family members over the phone, although they require a request in writing in order to take action. The DVLA will treat information sensitively and in confidence, they will not tell the driver who contacted them. The DVLA will send the person with dementia what appears to be a routine, unsolicited letter and a form to complete. This form includes a question relating specifically to memory and mentions dementia.<\/p>\r\n<p>Alternatively, doctors should disclose the persons relevant medical information to the DVLA if they are unable to persuade the individual to tell the DVLA themselves and if they believe the person\u2019s continued driving poses a serious risk to others. This is according to guidance issued to doctors. The doctor does not need the individuals permission to do this, but they should tell them afterwards in writing that they have done so.<\/p>"
+		},
+		{
+			"id": 14,
+			"title": "IF YOU THINK THEY SHOULD NO LONGER BE DRIVING",
+			"overview": "<p>If you think someone is no longer safe to drive, you should discuss this with them as they may share your worries. During this conversation, it can be helpful to acknowledge how difficult a decision it is and encourage them to explore alternative transport options that give them control or offer to do this with them.<\/p>",
+			"full": "<p>If you are not sure if the person is safe to drive, it is important to discuss with them. They may share your concerns or be willing to give up driving once the problem has been pointed out. Sometimes, however, someone with dementia can\u2019t see that there is a problem. The dementia may mean they don\u2019t understand how their symptoms affect their driving or they may be in denial about heir diagnosis. It is important to remember that it is unlikely that they are being deliberately difficult.<\/p>\r\n<p>During the conversation, it may help to acknowledge how difficult the decision may be for that person. Driving may have been their main means of transportation for much of their life. Having to give that up can feel like a loss of independence and result in them feeling unhappy or having low self-esteem.<\/p>"
+		},
+		{
+			"id": 15,
+			"title": "IF THE PERSON REFUSES TO STOP DRIVING",
+			"overview": "<p>Being told to stop driving can be a difficult situation and the individual may be reluctant, even if the DVLA has concluded they are not safe. If they refuse to stop driving, its important to contact the DVLA. As a temporary measure, many people hide the car keys or park the car out of sight.<\/p>",
+			"full": "<p>Being told to stop driving can be a very difficult and upsetting situation for both the person and their family. It is important to recognise that someone with dementia is probably not being deliberately difficult. Instead, the dementia itself may mean that the person does not realise how their symptoms affect their driving. In some cases the person may be in denial about their diagnosis or keep forgetting that their licence has been cancelled.<\/p>\r\n<p>In such cases the person\u2019s doctor or family should write in confidence to DVLA. The agency will then follow things up with the local police. The DVLA will treat the information sensitively and in confidence, they will not tell the driver who contacted them. Many carers or family members try temporary strategies like hiding car keys or parking the car somewhere it isn\u2019t visible to the person.<\/p>"
+		},
+		{
+			"id": 16,
+			"title": "MONITORING DRIVING",
+			"overview": "<p>It is a good idea for relatives, friends or others close to the person to tactfully monitor the persons driving skills. If you are worried about their driving or feel unsafe, it is important to discuss this with the individual and, if necessary, their GP.<\/p>",
+			"full": "<p>Whilst their condition should be regularly reviewed by their doctor, it is a good idea for relatives, friends or others close to the person with dementia to tactfully monitor the persons driving skills. If you do notice a change, feel unsafe being driven by them or notice that as a passenger you are having to correct or guide them more, it is important to discuss these concerns with the individual and if necessary, the doctor.<\/p>\r\n<p>Sometimes it becomes clear that the person should no longer be driving. It can be helpful to watch for them:<\/p>\r\n<ul>\r\n<li>Feeling less confident or more irritable on the road<\/li>\r\n<li>Getting regularly lost or confused on familiar routes<\/li>\r\n<li>Beginning to misjudge speed or distance<\/li>\r\n<li>Finding themselves straying across lanes or hitting kerbs<\/li>\r\n<li>Having minor scraps, accidents or near-misses<\/li>\r\n<li>Finding that passengers are concerned or uncomfortable when they are driving<\/li>\r\n<\/ul>"
+		},
+		{
+			"id": 17,
+			"title": "SUPPORT",
+			"overview": "<p>This section will signpost users to where they can get support if they have been told to stop driving. Content TBC<\/p>",
+			"full": "<p>This section will signpost users to where they can get support if they have been told to stop driving. Content TBC<\/p>"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "averageCosts": {
+    "unleaded": 1.271,
+    "diesel": 1.321,
+    "superUnleaded": 1.402,
+    "premiumDiesel": 1.461
+  },
+  "annualTax": {
+    "petrolOrDiesel": 140,
+    "electric": 0,
+    "alternative": 130
+  }
+}
